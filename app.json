@@ -1,5 +1,6 @@
 {
-  "pages":[
+  "pages":[ 
+    "pages/studytask/i_plug_tips/plug_tips",
     "pages/home/home/home",
     "pages/home/scan/scan",
     "pages/studytask/a_safety_tips/safety_tips",
@@ -10,7 +11,6 @@
     "pages/studytask/f_Masterbrake_switch/Masterbrake_switch",
     "pages/studytask/g_socket/socket",
     "pages/studytask/h_plug/plug",
-    "pages/studytask/i_plug_tips/plug_tips",
     "pages/studytask/j_room_goods/room_goods",
     "pages/studytask/k_lab_goods/lab_goods",
     "pages/studytask/l_power_lines/power_lines",

@@ -5,9 +5,9 @@ page{
 }
 /* 搜索框样式 */
 .search{
-    width: 730rpx;
+    width: 704rpx;
 	height: 60rpx;
-    margin-left: 10rpx;
+    margin-left: 25rpx;
     border-radius: 14rpx;
 	font-size: 28rpx;
 	line-height: 150%;
@@ -38,10 +38,10 @@ page{
 }
 .down{
     position: absolute;
-    width: 730rpx;
+    width: 704rpx;
     height: 385rpx;
     top: 20rpx;
-    left: 10rpx;
+    left: 25rpx;
 }
 .up{
     position: absolute;
@@ -59,23 +59,16 @@ page{
     position: relative;
 }
 .safetytips{
-    width: 730rpx;
+    width: 704rpx;
     height: 316rpx;
     top: 0rpx;
-    left: 3rpx;
+    left: 15rpx;
     position: absolute;
 }
 .group_cube{
-    width: 730rpx;
+    width: 704rpx;
     height: 316rpx;
     top: 348rpx;
-    left: 3rpx;
+    left: 15rpx;
     position: absolute;
 }
-/* .space{
-    width: 100%;
-    top: 648rpx;
-    position: absolute;
-    height: 10rpx;
-    border: 1rpx solid red;
-} */
