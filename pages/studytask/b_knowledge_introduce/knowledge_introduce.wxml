@@ -1,6 +1,6 @@
 <!-- pages/studytask/b_knowledge_introduce/knowledge_introduce.wxml灭火器知识介绍 -->
 <view class="knowintro_top">
-    <image src="../../../icons/studytask/b_knowledge_introduce/know_intro.png" />
+    <image src="http://114.55.238.17:81/LabSafe/icons/studytask/b_knowledge_introduce/know_intro.png" />
 </view>
 <!-- 灭火器分类 -->
 <view class="knowintro_center">

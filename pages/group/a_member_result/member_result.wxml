@@ -1,2 +1,61 @@
 <!--pages/group/a_member_result/member_result.wxml-->
-<text>pages/group/a_member_result/member_result.wxml</text>
+<view class="result_top">
+  <cover-view class="top_text">小组成员</cover-view>
+  <image class="img1" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+  <!-- <image class="img1" src="../../../icons/group/a_member_result/friend_one.jpeg" /> -->
+  <image class="img2" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+  <image class="img3" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+  <image class="img4" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+  <image class="img5" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+
+  <cover-view class="next">></cover-view>
+  <cover-view class="all_people">共七人</cover-view>
+  <cover-view class="top_name1">王婕</cover-view>
+  <cover-view class="top_name2">林芳</cover-view>
+  <cover-view class="top_name3">张奕垚</cover-view>
+  <cover-view class="top_name4">丁文玉</cover-view>
+  <cover-view class="top_name5">张三</cover-view>
+</view>
+<view class="result_center">
+  <cover-view class="center_text">学习成果</cover-view>
+  <cover-view class="add">+</cover-view>
+   <image class="center_img1" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+    <cover-view class="center_name1">小明</cover-view>
+    <cover-view class="center_theme1">主题1</cover-view>
+    <cover-view class="center_txt11">分为好几个步骤，好像是先取出灭火器</cover-view>
+    <cover-view class="center_txt12">再拔掉保险栓，再压合压把</cover-view>
+
+
+   <image class="center_img2" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+   <cover-view class="center_name2">张三</cover-view>
+   <cover-view class="center_theme2">主题2</cover-view>
+   <cover-view class="center_txt21">具体的你们可以看看视频操作，里面演示</cover-view>
+   <cover-view class="center_txt22">了详细操作</cover-view>
+
+</view>
+<view class="result_bottom">
+  <cover-view class="bottom_text">小组讨论</cover-view>
+  <view class="bottom_total">
+
+    <view class="number1">1.</view>
+    <image class="bottom_img1" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+    <view class="bottom_name1">张三</view>
+    <view class="bottom_detail1">具体的你们可以看看视频操作，里面演示</view>
+    
+    <view class="number2">2.</view>
+    <image class="bottom_img2" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+    <view class="bottom_name2">林芳</view>
+    <view class="bottom_detail2">最后好像是将喷嘴对准火焰根部喷射</view>
+
+    <view class="number3">3.</view>
+    <image class="bottom_img3" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+    <view class="bottom_name3">丁文玉</view>
+    <view class="bottom_detail3">我记得分为好几个步骤，好像是先取出灭火器</view>
+
+    <view class="number4">4.</view>
+    <image class="bottom_img4" src="http://114.55.238.17:81/LabSafe/icons/group/a_member_result/friend_one.jpeg" />
+    <view class="bottom_name4">李四</view>
+    <view class="bottom_detail4">拔掉保险栓，再压合压把</view>
+
+  </view>
+</view>

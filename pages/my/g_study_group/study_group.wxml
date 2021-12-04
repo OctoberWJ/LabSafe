@@ -1,2 +1,28 @@
 <!--pages/my/g_study_group/study_group.wxml-->
-<text>pages/my/g_study_group/study_group.wxml</text>
+<!-- 搜索框 -->
+<view class="search">
+  <image src="http://114.55.238.17:81/LabSafe/icons/home/search.png" />
+  <cover-view class="search_text">搜索</cover-view>
+</view>
+<view class="commu">
+  <view class="friend_one">
+    <image src="http://114.55.238.17:81/LabSafe/icons/my/g_study_group/lab1.jpg" />
+    <cover-view class="one_name">实验一</cover-view>
+    <cover-view class="one_text">二氧化碳灭火器怎么使用啊？</cover-view>
+  </view>
+  <view class="friend_two">
+    <image src="http://114.55.238.17:81/LabSafe/icons/my/g_study_group/lab2.jpg" />
+    <cover-view class="two_name">实验二</cover-view>
+    <cover-view class="two_text">防滑的安全标志我打卡了欸！</cover-view>
+  </view>
+  <view class="friend_three">
+    <image src="http://114.55.238.17:81/LabSafe/icons/my/g_study_group/lab3.jpg" />
+    <cover-view class="three_name">实验三</cover-view>
+    <cover-view class="three_text">具体可以看看视频操作</cover-view>
+  </view>
+  <view class="friend_four">
+    <image src="http://114.55.238.17:81/LabSafe/icons/my/g_study_group/lab4.jpg" />
+    <cover-view class="four_name">实验四</cover-view>
+    <cover-view class="four_text">大家分享一下自己的实验感受吧</cover-view>
+  </view>
+</view>

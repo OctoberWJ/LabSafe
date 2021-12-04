@@ -1,2 +1,28 @@
-<!--pages/my/b_study_friends/study_friends.wxml-->
-<text>pages/my/b_study_friends/study_friends.wxml</text>
+<!-- 学习好友pages/my/b_study_friends/study_friends.wxml -->
+<!-- 搜索框 -->
+<view class="search">
+  <image src="http://114.55.238.17:81/LabSafe/icons/home/search.png" />
+  <cover-view class="search_text">搜索安全知识</cover-view>
+</view>
+<view class="commu">
+  <view class="friend_one">
+    <image src="http://114.55.238.17:81/LabSafe/icons/my/b_study_friends/friend_one.jpeg" />
+    <cover-view class="one_name">林芳</cover-view>
+    <cover-view class="one_text">这是灭火器的知识</cover-view>
+  </view>
+  <view class="friend_two">
+    <image src="http://114.55.238.17:81/LabSafe/icons/my/b_study_friends/friend_two.jpeg" />
+    <cover-view class="two_name">张奕垚</cover-view>
+    <cover-view class="two_text">噢噢</cover-view>
+  </view>
+  <view class="friend_three">
+    <image src="http://114.55.238.17:81/LabSafe/icons/my/b_study_friends/friend_three.jpeg" />
+    <cover-view class="three_name">王婕</cover-view>
+    <cover-view class="three_text">具体可以看看视频操作</cover-view>
+  </view>
+  <view class="friend_four">
+    <image src="http://114.55.238.17:81/LabSafe/icons/my/b_study_friends/friend_four.jpeg" />
+    <cover-view class="four_name">丁文玉</cover-view>
+    <cover-view class="four_text">是吗？</cover-view>
+  </view>
+</view>

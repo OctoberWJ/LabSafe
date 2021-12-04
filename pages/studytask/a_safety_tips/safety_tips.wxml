@@ -1,2 +1,53 @@
-<!--pages/studytask/a_safety_tips/safety_tips.wxml-->
-<text>pages/studytask/a_safety_tips/safety_tips.wxml</text>
+<!-- pages/studytask/a_safety_tips/safety_tips.wxml -->
+<view class="safety_tips">
+  <view class="search">
+    <image src="http://114.55.238.17:81/LabSafe/icons/home/search.png" />
+    <!-- <image src="../../../icons/home/search.png" /> -->
+    <cover-view class="search_text">搜索安全知识</cover-view>
+  </view>
+  <cover-view class="bold_text">常用安全知识</cover-view>
+  <view class="all_box">
+    <view class="box1">
+      <cover-view class="bold_box1">安全警示</cover-view>
+      <cover-view class="safety_top_text1">{{box1_isFinished}}</cover-view>
+      <cover-view class="safe_percent1">{{box1_finish_percent}}</cover-view>
+      <image src="http://114.55.238.17:81/LabSafe/icons/studytask/a_safety_tips/box_one.png"/>  
+    </view>
+    <view class="box2">
+      <cover-view class="bold_box2">灭火器</cover-view>
+      <cover-view class="safety_top_text2">{{box2_isFinished}}</cover-view>
+      <cover-view class="safe_percent2">{{box2_finish_percent}}</cover-view>
+      <image class="img_box2" src="http://114.55.238.17:81/LabSafe/icons/studytask/a_safety_tips/box_two.png"/>  
+    </view>
+    <view class="box3">
+      <cover-view class="bold_box3">插座</cover-view>
+      <cover-view class="safety_top_text3">{{box2_isFinished}}</cover-view>
+      <cover-view class="safe_percent3">{{box2_finish_percent}}</cover-view>
+      <image src="../../../icons/studytask/a_safety_tips/box_three.png"/>  
+    </view>
+    <view class="box4">
+      <cover-view class="bold_box2">接线板</cover-view>
+      <cover-view class="safety_top_text2">{{box2_isFinished}}</cover-view>
+      <cover-view class="safe_percent2">{{box2_finish_percent}}</cover-view>
+      <image src="../../../icons/studytask/a_safety_tips/box_four.png"/>  
+    </view>
+    <view class="box5">
+      <cover-view class="bold_box2">插头插座</cover-view>
+      <cover-view class="safety_top_text2">{{box2_isFinished}}</cover-view>
+      <cover-view class="safe_percent2">{{box2_finish_percent}}</cover-view>
+      <image src="../../../icons/studytask/a_safety_tips/box_three.png"/>  
+    </view>
+    <view class="box6">
+      <cover-view class="bold_box2">实验室物品</cover-view>
+      <cover-view class="safety_top_text2">{{box2_isFinished}}</cover-view>
+      <cover-view class="safe_percent2">{{box2_finish_percent}}</cover-view>
+      <image src="../../../icons/studytask/a_safety_tips/box_four.png"/>  
+    </view>
+    <view class="box7">
+      <cover-view class="bold_box2">电源总开关</cover-view>
+      <cover-view class="safety_top_text2">{{box2_isFinished}}</cover-view>
+      <cover-view class="safe_percent2">{{box2_finish_percent}}</cover-view>
+      <image src="http://114.55.238.17:81/LabSafe/icons/studytask/a_safety_tips/box_five.png"/>  
+    </view>
+  </view>
+</view>

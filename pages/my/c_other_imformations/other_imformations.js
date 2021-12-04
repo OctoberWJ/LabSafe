@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    other_name:'小明',
+    lab_name:'603实验室'
   },
 
   /**

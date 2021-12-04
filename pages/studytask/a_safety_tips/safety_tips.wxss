@@ -1,1 +1,150 @@
 /* pages/studytask/a_safety_tips/safety_tips.wxss */
+page{
+  background:#f8f8f8;
+}
+.safety_tips{
+  position: relative;
+}
+/* 搜索框样式 */
+.search{
+  width: 704rpx;
+  height: 60rpx;
+  margin-left: 25rpx;
+  border-radius: 14rpx;
+  font-size: 28rpx;
+  line-height: 150%;
+  border: rgba(17, 17, 17, 0.03) solid 2rpx;
+  text-align: center;
+  color: rgba(17, 17, 17, 1);
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+/* 搜索框图片样式 */
+.search image{
+  position: absolute;
+  width: 37rpx;
+  height: 37rpx;
+  left: 253rpx;
+  top: 16rpx;
+}
+.search_text{
+  position: absolute;
+  left: 297rpx;
+  top: 16rpx;
+}
+.bold_text{
+  position: absolute;
+  width: 216rpx;
+	height: 54rpx;
+	left: 24rpx;
+	top: 110rpx;
+	color: rgba(0, 0, 0, 1);
+	font-size: 36rpx;
+	font-weight: bold;
+}
+/* -------- */
+.box1,.box2,.box3,.box4,.box5,.box6{
+  position: absolute;
+  width: 342rpx;
+	height: 200rpx;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 9rpx;
+	box-shadow: 0rpx 0rpx 12rpx 12rpx rgba(74, 130, 233, 0.05);
+}
+.box1{
+  left: 24rpx;
+	top: 207rpx;
+} 
+.box2{
+  left: 389rpx;
+	top: 207rpx;
+}
+.box3{
+  left: 24rpx;
+	top: 433rpx;
+} 
+.box4{
+  left: 389rpx;
+	top: 433rpx;
+}
+.box5{
+  left: 24rpx;
+	top: 657rpx;
+} 
+.box6{
+  left: 389rpx;
+	top: 657rpx;
+}
+.box7{
+  left: 21rpx;
+	top: 884rpx;
+  position: absolute;
+  height: 200rpx;
+	width: 708rpx;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 9rpx;
+	box-shadow: 0rpx 0rpx 12rpx 12rpx rgba(74, 130, 233, 0.05);
+}
+/* ------------- */
+.bold_box1,.bold_box2,.bold_box3,.bold_box4,.bold_box5,.bold_box6,.bold_box7{
+  position: absolute;
+	color: rgba(0, 0, 0, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+	text-align: left;
+	font-weight: bold;
+  left: 26rpx;
+	top: 26rpx;
+}
+.box1 image{
+  position: absolute;
+  width: 412rpx;
+	height: 213rpx;
+  left: 44rpx;
+}
+.box2 image{
+  position: absolute;
+  width: 338rpx;
+	height: 176rpx;
+  top: 45rpx;
+	left: 96rpx;
+	transform: rotate(33deg);
+}
+.box3 image{
+  position: absolute;
+  width: 154rpx;
+	height: 134rpx;
+  top: 64rpx;
+	left: 177rpx;
+}
+.box4 image{
+  position: absolute;
+  width: 344rpx;
+	height: 254rpx;
+  top: 9rpx;
+	left: 90rpx;
+  transform: rotate(15deg);
+}
+.box5 image{
+  position: absolute;
+  width: 154rpx;
+	height: 134rpx;
+  top: 64rpx;
+	left: 177rpx;
+}
+.box6 image{
+  position: absolute;
+  width: 344rpx;
+	height: 254rpx;
+  top: 9rpx;
+	left: 90rpx;
+  transform: rotate(15deg);
+}
+.box7 image{
+  position: absolute;
+  transform: rotate(286deg);
+  width: 541rpx;
+	height: 774rpx;
+  top: -293rpx;
+  left: 206rpx;
+}

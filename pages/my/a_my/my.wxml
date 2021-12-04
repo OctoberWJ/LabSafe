@@ -1,2 +1,40 @@
-<!--pages/my/a_my/my.wxml-->
-<text>pages/my/a_my/my.wxml</text>
+<!-- pages/my/a_my/my.wxml -->
+<view class="index">
+  <cover-view class="blue_index"></cover-view>
+    <image class="set" src="../../../icons/my/set.png" />
+    <image class="question" src="../../../icons/my/question.png" />
+  <view class="white_index">
+    <!-- 获取头像 -->
+    <open-data class="img" type="userAvatarUrl"></open-data>
+    <!-- 获取昵称 -->
+    <open-data class="name" type="userNickName" lang="zh_CN"></open-data>
+    <image class="nav" src="../../../icons/my/nav.png" />
+  </view>
+  <view class="index_bottom">
+    <navigator url="../g_study_group/study_group.wxml" class="study_group">
+      <image class="study_group_img" src="../../../icons/my/studygroup.png" />
+      <cover-view class="text1">学习小组</cover-view>
+      <image class="nav1" src="../../../icons/my/nav.png" />
+    </navigator>
+    <navigator url="../g_study_group/study_group.wxml" class="study_friend">
+      <image class="study_friend_img" src="../../../icons/my/studyfriends.png" />
+      <cover-view class="text2">学习好友</cover-view>
+      <image class="nav2" src="../../../icons/my/nav.png" />
+    </navigator>
+    <navigator url="../g_study_group/study_group.wxml" class="task_count">
+      <image class="task_count_img" src="../../../icons/my/studyprogress.png" />
+      <cover-view class="text3">学习进度任务统计</cover-view>
+      <image class="nav3" src="../../../icons/my/nav.png" />
+    </navigator>
+    <navigator url="../g_study_group/study_group.wxml" class="point_list">
+      <image class="point_list_img" src="../../../icons/my/score.png" />
+      <cover-view class="text4">积分榜</cover-view>
+      <image class="nav4" src="../../../icons/my/nav.png" />
+    </navigator>
+    <navigator url="../g_study_group/study_group.wxml" class="study_esti">
+      <image class="study_esti_img" src="../../../icons/my/study_esti.png" />
+      <cover-view class="text5">学习评价</cover-view>
+      <image class="nav5" src="../../../icons/my/nav.png" />
+    </navigator>
+  </view>
+</view>

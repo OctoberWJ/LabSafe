@@ -1,1 +1,100 @@
 /* pages/my/a_my/my.wxss */
+page{
+  background:#f8f8f8;
+}
+.index{
+  position: relative;
+}
+.blue_index{
+  width: 750rpx;
+	height: 218rpx;
+	background-color: rgba(51, 92, 165, 1);
+}
+.white_index{
+  position: absolute;
+  width: 704rpx;
+	height: 314rpx;
+	left: 24rpx;
+	top: 89rpx;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 9rpx;
+}
+.set,.question{
+  position: absolute;
+  width: 48rpx;
+	height: 48rpx;
+	left: 339rpx;
+  top: 20rpx;
+}
+.set{
+	left: 620rpx;
+}
+.question{
+	left: 678rpx;
+}
+.img{
+  position: absolute;
+  width: 155rpx;
+	height: 155rpx;
+	left: 28rpx;
+	top: 139rpx;
+}
+.name{
+  position: absolute;
+	left: 209rpx;
+	top: 181rpx;
+	color: rgba(17, 17, 17, 1);
+	font-size: 40rpx;
+	font-weight: bold;
+}
+.nav{
+  position: absolute;
+  width: 24rpx;
+	height: 36rpx;
+	left: 638rpx;
+	top: 195rpx;
+}
+.point_list,.study_esti,.study_friend,.study_group,.task_count{
+  position: absolute;
+  width: 704rpx;
+	height: 110rpx;
+	left: 24rpx;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 9rpx;
+}
+.study_group{
+  top: 427rpx;
+}
+.study_friend{
+  top: 562rpx;
+}
+.task_count{
+  top: 694rpx;
+}
+.point_list{
+  top: 828rpx;
+}
+.study_esti{
+  top: 964rpx;
+}
+.study_group_img,.study_friend_img,.task_count_img,.point_list_img,.study_esti_img{
+  position: absolute;
+  width: 48rpx;
+	height: 48rpx;
+	left: 29rpx;
+  top: 30rpx;
+}
+.nav1,.nav2,.nav3,.nav4,.nav5{
+  position: absolute;
+  width: 24rpx;
+	height: 36rpx;
+	left: 638rpx;
+  top: 39rpx;
+}
+.text1,.text2,.text3,.text4,.text5{
+  position: absolute;
+	left: 118rpx;
+	color: rgba(17, 17, 17, 1);
+	font-size: 32rpx;
+  top: 39rpx;
+}

@@ -1,32 +1,33 @@
 {
-  "pages":[ 
-    "pages/studytask/i_plug_tips/plug_tips",
+  "pages":[
+    "pages/my/e_points_list/points_list",
     "pages/home/home/home",
     "pages/home/scan/scan",
-    "pages/studytask/a_safety_tips/safety_tips",
+    "pages/studytask/a_safety_tips/safety_tips",  
     "pages/studytask/b_knowledge_introduce/knowledge_introduce",
     "pages/studytask/c_show_video/show_video",
     "pages/studytask/d_drypowderfire_extinguisher/drypowderfire_extinguishe",
     "pages/studytask/e_carbondioxidefire_extinguisher/carbondioxidefire_extinguisher",
-    "pages/studytask/f_Masterbrake_switch/Masterbrake_switch",
+    "pages/studytask/f_Masterbrake_switch/Masterbrake_switch", 
     "pages/studytask/g_socket/socket",
     "pages/studytask/h_plug/plug",
+    "pages/studytask/i_plug_tips/plug_tips",
     "pages/studytask/j_room_goods/room_goods",
     "pages/studytask/k_lab_goods/lab_goods",
     "pages/studytask/l_power_lines/power_lines",
     "pages/studytask/m_safety_notice/safety_notice",
     "pages/my/a_my/my",
     "pages/my/b_study_friends/study_friends",
-    "pages/my/c_other_imformations/other_imformations",
+    "pages/my/c_other_imformations/other_imformations", 
     "pages/my/d_add_friends/add_friends",
-    "pages/my/e_points_list/points_list",
-    "pages/my/f_myself_studytask_totally/myself_studytask_totally",
+    "pages/my/f_myself_studytask_totally/myself_studytask_totally", 
     "pages/my/g_study_group/study_group",
     "pages/my/h_add_lab/add_lab",
     "pages/my/i_all_studytask_totally/all_studytask_totally",
     "pages/my/j_study_estimate/study_estimate",
     "pages/group/a_member_result/member_result",
     "pages/group/b_member_argue/member_argue"
+    
 
   ],
   "window":{

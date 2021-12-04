@@ -1,1 +1,121 @@
 /* pages/my/g_study_group/study_group.wxss */
+page{
+  background:#f8f8f8;
+}
+/* 搜索框样式 */
+.search{
+  width: 704rpx;
+height: 60rpx;
+  margin-left: 25rpx;
+  border-radius: 14rpx;
+font-size: 28rpx;
+line-height: 150%;
+border: rgba(17, 17, 17, 0.03) solid 2rpx;
+text-align: center;
+  color: rgba(17, 17, 17, 1);
+background-color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+/* 搜索框图片样式 */
+.search image{
+  position: absolute;
+  width: 37rpx;
+height: 37rpx;
+  left: 253rpx;
+  top: 16rpx;
+}
+.search_text{
+  position: absolute;
+  left: 297rpx;
+  top: 16rpx;
+}
+/* 对话 */
+.friend_one image{
+  position: absolute;
+  width: 100rpx;
+	height: 100rpx;
+	left: 25rpx;
+	top: 106rpx;
+}
+.one_name{
+  position: absolute;
+	left: 144rpx;
+	top: 115rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+	line-height: 150%;
+	text-align: left;
+}
+.one_text{
+  position: absolute;
+	left: 144rpx;
+	top: 159rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 24rpx;
+	line-height: 150%;
+	text-align: left;
+}
+.friend_two image{
+  position: absolute;
+  width: 100rpx;
+	height: 100rpx;
+	left: 25rpx;
+	top: 235rpx;
+}
+.two_name{
+  position: absolute;
+	left: 144rpx;
+	top: 244rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+}
+.two_text{
+  position: absolute;
+	left: 144rpx;
+	top: 293rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 24rpx;
+}
+
+.friend_three image{
+  position: absolute;
+  width: 100rpx;
+	height: 100rpx;
+	left: 25rpx;
+	top: 366rpx;
+}
+.three_name{
+  position: absolute;
+	left: 144rpx;
+	top: 374rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+}
+.three_text{
+  position: absolute;
+	left: 144rpx;
+	top:425rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 24rpx;
+}
+.friend_four image{
+  position: absolute;
+  width: 100rpx;
+	height: 100rpx;
+	left: 25rpx;
+	top: 496rpx;
+}
+.four_name{
+  position: absolute;
+	left: 144rpx;
+	top: 508rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 28rpx;
+}
+.four_text{
+  position: absolute;
+	left: 144rpx;
+	top:555rpx;
+	color: rgba(80, 80, 80, 1);
+	font-size: 24rpx;
+}

@@ -1,66 +1,64 @@
 // pages/studytask/f_Masterbrake_switch/Masterbrake_switch.js
+var app = getApp()
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    showModal: false,
+    showModal2: false,
+    now_status:"请选择开关状态！"
+  },
+  onLoad: function () {
+  },
+  /**
+   * 弹窗
+   */
+  showDialogBtn: function () {
+    this.setData({
+      showModal: true
+    })
+  },
+  showDialogBtn2: function () {
+    this.setData({
+      showModal2: true
+    })
+  },
+  /**
+   * 弹出框蒙层截断touchmove事件
+   */
+  preventTouchMove: function () {
+  },
+  /**
+   * 隐藏模态对话框
+   */
+  hideModal: function () {
+    this.setData({
+      showModal: false,
+      showModal2: false
+    });
+  },
+  /**
+   * 对话框取消按钮点击事件
+   */
+  onCancel: function () {
+    this.hideModal();
+  },
+  /**
+   * 对话框确认按钮点击事件 改变文字样式
+   */
+  onConfirm: function () { 
+    if('now_status="开关当前为关"'||'now_status="请选择开关状态！"'){
+      this.setData({
+        now_status: "开关当前为开"
+      });
+    }
+    this.hideModal();
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  onConfirm2: function () {
+    if('now_status="开关当前为开"'||'now_status="请选择开关状态！"'){
+      this.setData({
+        now_status: "开关当前为关"
+      });
+    }
+    this.hideModal();
   }
 })

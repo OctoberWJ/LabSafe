@@ -1,7 +1,7 @@
 <!--pages/studytask/e_carbondioxidefire_extinguisher/carbondioxidefire_extinguisher.wxml-->
 <view class="carbon_text">二氧化碳灭火器</view>
 <view class="carbon_top">
-    <image src="../../../icons/studytask/e_carbondioxidefire_extinguisher/carbon.jpg" />
+    <image src="http://114.55.238.17:81/LabSafe/icons/studytask/e_carbondioxidefire_extinguisher/carbon.jpg" />
 </view>
 <!-- 灭火器使用方法 -->
 <view class="carbon_bottom">

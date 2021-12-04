@@ -1,2 +1,23 @@
-<!--pages/studytask/c_show_video/show_video.wxml-->
-<text>pages/studytask/c_show_video/show_video.wxml</text>
+<!-- 灭火器演示视频页pages/studytask/c_show_video/show_video.wxml -->
+<!-- 点击不同按钮改变样式已完成，点击按钮播放不同路径视频未调试不知道行不行 -->
+<view class="home">
+  <video class="show_video" src="{{src_video}}" controls loop="true" />
+  <view class="iconusecont-div {{state==index?'active-tag':''}}" bindtap="select_use" wx:for="{{use}}" data-key='{{index}}'>
+    <view class="flex-item">
+      <rich-text class='use_name'>{{item.use_name}}</rich-text>
+    </view>
+  </view>
+  <navigator url="../b_knowledge_introduce/knowledge_introduce.wxml">
+    <cover-view class="bottom_button">安全要点</cover-view>
+  </navigator>
+  <!-- <cover-view 
+  class="ti" 
+  bind:touchstart="bingTi_taiqi" 
+  bind:touchend="bindTi_anxia"
+  style="color: {{activeColor}}; background-color: {{activeBgColor}};"
+  >提</cover-view>
+  <cover-view class="huang">晃</cover-view>
+  <cover-view class="ba" bindtap="bingBa">拔</cover-view>
+  <cover-view class="dui" bindtap="bingDui">对</cover-view>
+  <cover-view class="pen" bindtap="bingPen">喷</cover-view> -->
+</view>

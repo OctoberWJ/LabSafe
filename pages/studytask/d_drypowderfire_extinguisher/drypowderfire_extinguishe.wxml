@@ -1,7 +1,7 @@
 <!--pages/studytask/d_drypowderfire_extinguisher/drypowderfire_extinguishe.wxml-->
 <view class="drypowder_text">干粉灭火器</view>
 <view class="drypowder_top">
-    <image src="../../../icons/studytask/d_drypowderfire_extinguisher/drypowder.png" />
+    <image src="http://114.55.238.17:81/LabSafe/icons/studytask/d_drypowderfire_extinguisher/drypowder.png" />
 </view>
 <!-- 灭火器使用方法 -->
 <view class="drypowder_bottom">
